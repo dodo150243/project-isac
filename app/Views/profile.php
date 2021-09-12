@@ -210,7 +210,7 @@
         <!-- Tag Header -->
         <nav class="navbar navbar-expand-lg bg-dark" id="bg-drak">
             <div class="container-fluid">
-                <a class="navbar-brand" id="text0" href="#">ISAC</a>
+                <a class="navbar-brand" id="text0" href="/index">ISAC</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -229,11 +229,11 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ข้อมูลส่วนตัว</a>
+                            <a class="nav-link" href="/profile">ข้อมูลส่วนตัว</a>
                         </li>
 
                     </ul>
-                    <a class="nav-link" href="#">USER</a>
+                    <a class="nav-link" href="#"><?php echo  $session->get('FName_eng'); ?></a>
                 </div>
             </div>
         </nav>

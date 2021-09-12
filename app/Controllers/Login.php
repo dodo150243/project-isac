@@ -52,7 +52,7 @@ class Login extends Controller
                     'logged_in' => TRUE
                 ];
                 $session->set($ses_data);
-                return redirect()->to('/dashboard');
+                return redirect()->to('/index');
             } else {
                 $session->setFlashdata('msg', 'Wrong password');
                 return redirect()->to('/login');
